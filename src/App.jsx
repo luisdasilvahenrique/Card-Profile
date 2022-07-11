@@ -10,10 +10,9 @@ export default function App() {
 
         <div className="description">
           <p>
-            Sou técnico de informática, atualmente estudando pela plataforma da
-            Rocketseat. 🚀
+            Sou técnico de informática, atualmente estudando pela plataforma da Rocketseat.🚀
           </p>
-          <span className="email">luisenriklh1177027@gmail.com</span>
+          <span>luisenriklh1177027@gmail.com</span>
         </div>
 
         <div className="social-icons">
