@@ -13,7 +13,7 @@ export default function App() {
             Sou técnico de informática, atualmente estudando pela plataforma da
             Rocketseat. 🚀
           </p>
-          <span>luisenriklh1177027@gmail.com</span>
+          <span className="email">luisenriklh1177027@gmail.com</span>
         </div>
 
         <div className="social-icons">

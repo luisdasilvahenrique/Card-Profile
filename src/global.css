@@ -13,13 +13,30 @@ body, button, input, textarea{
 body {
     display: grid;
     place-items: center;
+
+    background: #121214 ;
 }
 
 .MainContainer {
     width: 375px;
-    height: 800px;
+    height: 450px;
 }
 
 .container {
+    min-width: auto;
+    margin-left: auto;
+    margin-right: auto;
 
+    background: #9466ff;
+    border-radius: 0.5rem;
+
+    text-align: center;
+    color: white;
+}
+
+.profile-container > img {
+    width: 8rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
 }
