@@ -20,9 +20,9 @@ export default function App() {
         </div>
 
         <div className="social-icons">
-          <a href="#"> <FiInstagram size={sizeIcons}/> </a>
-          <a href="#"> <FiLinkedin size={sizeIcons}/> </a>
-          <a href="#"> <FiGithub size={sizeIcons}/> </a>
+          <a href="https://www.instagram.com/luissh.dev/" target={"_blank"}> <FiInstagram size={sizeIcons}/> </a>
+          <a href="https://www.linkedin.com/in/luís-henrique-a1426a20a/" target={"_blank"}> <FiLinkedin size={sizeIcons}/> </a>
+          <a href="https://github.com/luisdasilvahenrique" target={"_blank"}> <FiGithub size={sizeIcons}/> </a>
         </div>
       </div>
     </div>
