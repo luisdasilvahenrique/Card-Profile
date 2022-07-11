@@ -1,4 +1,8 @@
+import { FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
 export default function App() {
+
+  const sizeIcons = 28;
+
   return (
     <div className="MainContainer">
       <div className="container">
@@ -16,11 +20,11 @@ export default function App() {
         </div>
 
         <div className="social-icons">
-          <a href="#">Instagram</a>
-          <a href="#">Linkedin</a>
-          <a href="#">Github</a>
+          <a href="#"> <FiInstagram size={sizeIcons}/> </a>
+          <a href="#"> <FiLinkedin size={sizeIcons}/> </a>
+          <a href="#"> <FiGithub size={sizeIcons}/> </a>
         </div>
       </div>
     </div>
-  );
+  );  
 }
